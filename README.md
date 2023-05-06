@@ -21,7 +21,7 @@ Refer to the image below for further guidance on the steps.
 ## How to get `Digioh Boxes`
 ```
 val digioh = Digioh(userGId = "Your Api Key")
-digioh.checkShowBoxes(params: String?,context: Context, callback:  (List<Int>?, Error?) -> Unit)
+digioh.getShowBoxes(params: String?,context: Context, callback:  (List<Int>?, Error?) -> Unit)
 ```
 - params if any pass in string otherwise `"" or null`
 - `context` pass `activity context`
