@@ -1,7 +1,7 @@
 # digioh-android-sdk!
 
 ## Digioh android SDK Integration
-To add `Digioh.aar` to your android project following instrucitons:
+To add `Digioh.aar` to your android project follow below instructions:
 - Download `Digioh.aar` from this repo.
 - Open your android project and drag the `Digioh.aar` under libs in Project > app. As shown in below image.
 - Open app level `build.gradle` and add the following lines in `dependencies`
